@@ -1,36 +1,89 @@
-<div class="dashboard">
-  <aside class="sidebar">
-    <div class="profile">
-      <img src="avatar.jpg" alt="Simo Edwin" class="avatar">
-      <h3>Simo Edwin</h3>
-      <p>Pro Member</p>
-    </div>
-    
-    <nav class="menu">
-      <div class="menu-item"><i class="icon-streams"></i> Streams</div>
-      <div class="menu-item active"><i class="icon-games"></i> Games</div>
-      <div class="menu-item"><i class="icon-new"></i> New</div>
-      <div class="menu-item"><i class="icon-library"></i> Library</div>
-    </nav>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Active Games Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="main-container">
+        <aside class="sidebar">
+            <div class="profile-section">
+                <img src="Ralph.jpg" alt="Profile" class="avatar">
+                <h3 class="user-name">Simo Edwin</h3>
+                <p class="user-status">Pro Member</p>
+            </div>
 
-    <div class="pro-card">
-      <p>Join pro for free games.</p>
-      <img src="controller.png" alt="Controller">
-    </div>
-  </aside>
+            <nav class="nav-links">
+                <div class="nav-item">
+                    <i class="fa-brands fa-twitch"></i>
+                    <span>Streams</span>
+                </div>
+                <div class="nav-item">
+                    <i class="fa-brands fa-steam"></i>
+                    <span>Games</span>
+                </div>
+                <div class="nav-item active">
+                    <i class="fa-solid fa-gamepad"></i>
+                    <span>New</span>
+                </div>
+                <div class="nav-item">
+                    <i class="fa-solid fa-book"></i>
+                    <span>Library</span>
+                </div>
+            </nav>
 
-  <main class="content">
-    <h1>Active Games</h1>
-    <div class="game-list">
-      <div class="game-card">
-        <img src="game-icon.jpg" alt="Valhalla">
-        <div class="game-info">
-          <h4>Assassins Creed Valhalla</h4>
-          <p>PS5 Version</p>
-          <div class="progress-bar"><div class="fill"></div></div>
-        </div>
-        <span class="percentage">60%</span>
-      </div>
-      </div>
-  </main>
-</div>
+            <div class="pro-card">
+                <div class="pro-text">
+                    <h4>Join pro for free games.</h4>
+                </div>
+                <img src="https://cdn-icons-png.flaticon.com/512/808/808476.png" alt="Controller" class="pro-icon">
+            </div>
+        </aside>
+
+        <main class="content-area">
+            <h1 class="section-title">Active Games</h1>
+            
+            <div class="games-list">
+                <div class="game-card">
+                    <img src="Ralph.jpg" alt="Game" class="game-img">
+                    <div class="game-info">
+                        <h4 class="game-name">Assassins Creed Valhalla</h4>
+                        <p class="game-version">PS5 Version</p>
+                        <div class="progress-container">
+                            <div class="progress-bar" style="width: 60%;"></div>
+                        </div>
+                    </div>
+                    <div class="percentage">60%</div>
+                </div>
+
+                <div class="game-card">
+                    <img src="Ralph.jpg" alt="Game" class="game-img">
+                    <div class="game-info">
+                        <h4 class="game-name">Assassins Creed Valhalla</h4>
+                        <p class="game-version">PS5 Version</p>
+                        <div class="progress-container">
+                            <div class="progress-bar" style="width: 60%;"></div>
+                        </div>
+                    </div>
+                    <div class="percentage">60%</div>
+                </div>
+
+                <div class="game-card">
+                    <img src="Ralph.jpg" alt="Game" class="game-img">
+                    <div class="game-info">
+                        <h4 class="game-name">Assassins Creed Valhalla</h4>
+                        <p class="game-version">PS5 Version</p>
+                        <div class="progress-container">
+                            <div class="progress-bar" style="width: 60%;"></div>
+                        </div>
+                    </div>
+                    <div class="percentage">60%</div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
