@@ -1,0 +1,63 @@
+/* Main Layout (10 Marks) */
+.dashboard {
+  display: flex; /* [cite: 12] */
+  height: 100vh;
+  background: linear-gradient(to bottom right, #e0f7f4, #b2d8d8);
+  padding: 20px;
+  gap: 20px; /*  */
+}
+
+/* Sidebar Styling (45 Marks) */
+.sidebar {
+  flex: 0 0 250px; /* flex-shrink and flex-basis  */
+  display: flex;
+  flex-direction: column; /*  */
+  align-items: center; /*  */
+  justify-content: space-between; /*  */
+  padding: 40px 20px; /* [cite: 14] */
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 30px; /* Spacing between links  */
+  width: 100%;
+}
+
+/* Active Games Styling (45 Marks) */
+.content {
+  flex-grow: 1; /* Fills remaining space  */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.game-card {
+  display: flex;
+  align-items: center; /* Vertically centers content  */
+  background: rgba(255, 255, 255, 0.6);
+  padding: 20px; /* [cite: 14] */
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+}
+
+.game-info {
+  flex-grow: 1;
+  margin-left: 20px; /* [cite: 14] */
+}
+
+/* Progress Bar */
+.progress-bar {
+  width: 100%; /* [cite: 14] */
+  height: 10px;
+  background: #d1eaea;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.fill {
+  width: 60%;
+  height: 100%;
+  background: #7bdcb5;
+  border-radius: 5px;
+}
